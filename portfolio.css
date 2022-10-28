@@ -1,0 +1,548 @@
+body {
+  background-color: #dd9dad;
+}
+div.firstdiv {
+  height: 300px;
+}
+
+#imgbase {
+  position: absolute;
+  width: 350;
+  height: 4000;
+  right: 870px;
+  top: 40px;
+}
+#neck {
+  position: absolute;
+  width: 500;
+  height: 550;
+  right: 720px;
+  top: 35px;
+}
+#face {
+  position: absolute;
+  width: 600;
+  height: 500;
+  left: 243px;
+  top: 80px;
+
+  -webkit-animation: spin 5s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(4deg);
+    transform-origin: 40% 70%;
+  }
+  50% {
+    -webkit-transform: rotate(-4deg);
+    transform-origin: 40% 70%;
+  }
+  100% {
+    -webkit-transform: rotate(4deg);
+    transform-origin: 40% 70%;
+  }
+}
+/* -webkit-animation-name: run;
+    -webkit-animation-duration: 0.5s;
+  }
+  @-webkit-keyframes run {
+    0% {
+      left: 230;
+    }
+    50% {
+      right: 360;
+    }
+    100% {
+      left: 240;
+      , webkit-transform: scaleX(-1);
+    }
+  } */
+/* 
+.topnav {
+  background-color: rgb(209, 143, 163);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar 
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: monospace;
+  margin-right: 10px;
+  margin: 0px;
+  width: ;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #e790a6;
+}
+
+
+.topnav a.active {
+  background-color: #cc7a9c;
+  color: white;
+}*/
+
+h1.hello {
+  position: absolute;
+  top: 750px;
+  left: 110px;
+  font-family: Comic Sans MS;
+  color: rgb(0, 0, 0);
+}
+h3.dob {
+  position: absolute;
+  top: 800px;
+  left: 80px;
+  font-family: Comic Sans MS;
+  color: rgb(255, 255, 255);
+}
+h3.city {
+  position: absolute;
+  top: 835px;
+  left: 80px;
+  font-family: Comic Sans MS;
+  color: rgb(255, 255, 255);
+}
+h3.mail {
+  position: absolute;
+  top: 870px;
+  left: 80px;
+  font-family: Comic Sans MS;
+  color: rgb(255, 255, 255);
+}
+h3.degree {
+  position: absolute;
+  top: 905px;
+  left: 80px;
+  font-family: Comic Sans MS;
+  color: rgb(255, 255, 255);
+}
+h1.edu {
+  position: absolute;
+  top: 750px;
+  left: 930px;
+  font-family: Comic Sans MS;
+  color: rgb(0, 0, 0);
+}
+h3.gates {
+  position: absolute;
+  top: 800px;
+  left: 740px;
+  font-family: Comic Sans MS;
+  color: rgb(255, 255, 255);
+}
+h3.thk {
+  position: absolute;
+  top: 920px;
+  left: 740px;
+  font-family: Comic Sans MS;
+  color: rgb(255, 255, 255);
+}
+h3.barwaha {
+  position: absolute;
+  top: 1020px;
+  left: 740px;
+  font-family: Comic Sans MS;
+  color: rgb(255, 255, 255);
+}
+h1.pro {
+  position: absolute;
+  top: 1370px;
+
+  left: 590px;
+  font-family: Comic Sans MS;
+  color: rgb(252, 250, 251);
+}
+h2.pro1 {
+  position: absolute;
+  top: 1420px;
+  left: 135px;
+  font-family: Comic Sans MS;
+  color: rgb(91, 99, 212);
+}
+h2.pro2 {
+  position: absolute;
+  top: 1420px;
+  right: 150px;
+  font-family: Comic Sans MS;
+  color: rgb(91, 99, 212);
+}
+h3.todo {
+  position: absolute;
+  top: 1468px;
+  left: 100px;
+  right: 800px;
+  font-family: Comic Sans MS;
+  color: aliceblue;
+  line-height: 2;
+}
+
+h3.weather {
+  position: absolute;
+  top: 1468px;
+  left: 800px;
+  right: 70px;
+  font-family: Comic Sans MS;
+  color: aliceblue;
+  line-height: 2;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Ubuntu";
+  font-size: 15px;
+  scroll-behavior: smooth;
+  background-color: #dd9dad;
+}
+section {
+  height: 1000px;
+  width: 100%;
+  background-color: #dd9dad;
+  display: flex;
+
+  text-transform: uppercase;
+}
+#home {
+  background-color: #dd9dad;
+}
+
+#about {
+  background-color: #dd9dad;
+}
+#contact {
+  background-color: #dd9dad;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #e7b6c2;
+  border-radius: 0 0 20px 20px;
+}
+nav .container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+nav .container ul li {
+  display: inline-block;
+  border-radius: 5px;
+}
+nav .container ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
+  font-family: Comic Sans MS;
+}
+nav .container ul li.active {
+  background-color: #74a5d3;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+nav .container ul li.active a {
+  color: #ffffff;
+}
+
+#python {
+  position: absolute;
+  top: 1000px;
+  left: 200px;
+}
+#oops {
+  position: absolute;
+  top: 1040px;
+  left: 200px;
+}
+#html {
+  position: absolute;
+  top: 1080px;
+  left: 200px;
+}
+#css {
+  position: absolute;
+  top: 1120px;
+  left: 200px;
+}
+#javascript {
+  position: absolute;
+  top: 1160px;
+  left: 200px;
+}
+#sql {
+  position: absolute;
+  top: 1200px;
+  left: 200px;
+}
+h3.skill {
+  position: absolute;
+  top: 955px;
+  left: 160px;
+  font-family: Comic Sans MS;
+  color: rgb(0, 0, 0);
+}
+
+h4.pyx {
+  position: absolute;
+  top: 1000px;
+  left: 100px;
+  font-family: Comic Sans MS;
+}
+h4.pyp {
+  position: absolute;
+  top: 1000px;
+  left: 425px;
+  font-family: Comic Sans MS;
+}
+
+h4.oopsx {
+  position: absolute;
+  top: 1040px;
+  left: 100px;
+  font-family: Comic Sans MS;
+}
+h4.oopsp {
+  position: absolute;
+  top: 1040px;
+  left: 425px;
+  font-family: Comic Sans MS;
+}
+
+h4.htmlx {
+  position: absolute;
+  top: 1080px;
+  left: 100px;
+  font-family: Comic Sans MS;
+}
+h4.htmlp {
+  position: absolute;
+  top: 1080px;
+  left: 425px;
+  font-family: Comic Sans MS;
+}
+
+h4.cssx {
+  position: absolute;
+  top: 1120px;
+  left: 100px;
+  font-family: Comic Sans MS;
+}
+h4.cssp {
+  position: absolute;
+  top: 1120px;
+  left: 425px;
+  font-family: Comic Sans MS;
+}
+
+h4.jsx {
+  position: absolute;
+  top: 1160px;
+  left: 100px;
+  font-family: Comic Sans MS;
+}
+h4.jsp {
+  position: absolute;
+  top: 1160px;
+  left: 425px;
+  font-family: Comic Sans MS;
+}
+
+h4.sqlx {
+  position: absolute;
+  top: 1200px;
+  left: 100px;
+  font-family: Comic Sans MS;
+}
+h4.sqlp {
+  position: absolute;
+  top: 1200px;
+  left: 425px;
+  font-family: Comic Sans MS;
+}
+
+h3.intrest {
+  position: absolute;
+  top: 1080px;
+  left: 950px;
+  font-family: Comic Sans MS;
+}
+
+h4.chess {
+  position: absolute;
+  top: 1140px;
+  left: 800px;
+  font-family: Comic Sans MS;
+}
+
+h4.Sketching {
+  position: absolute;
+  top: 1140px;
+  left: 980px;
+  font-family: Comic Sans MS;
+}
+
+h4.travelling {
+  position: absolute;
+  top: 1140px;
+  left: 1170px;
+  font-family: Comic Sans MS;
+}
+
+#ch {
+  position: absolute;
+  top: 1170px;
+  left: 750px;
+}
+#sk {
+  position: absolute;
+  top: 1170px;
+  left: 950px;
+}
+
+#tr {
+  position: absolute;
+  top: 1170px;
+  left: 1150px;
+}
+h3.bio {
+  position: absolute;
+  top: 220px;
+  left: 820px;
+  font-family: Comic Sans MS;
+  color: rgb(255, 255, 255);
+  line-height: 2;
+  word-spacing: 10px;
+}
+h1.bioa {
+  position: absolute;
+  top: 190px;
+  left: 820px;
+  font-family: Comic Sans MS;
+  color: rgb(255, 255, 255);
+  line-height: 2;
+  word-spacing: 10px;
+  font-size: 40px;
+}
+h1.pallavi {
+  position: absolute;
+  top: 100px;
+  left: 720px;
+  font-family: Comic Sans MS;
+  color: rgb(255, 255, 255);
+  line-height: 2;
+  word-spacing: 10px;
+  font-size: 35px;
+}
+
+h2.tag {
+  position: absolute;
+  top: 155px;
+  left: 870px;
+  font-family: Comic Sans MS;
+  color: rgb(10, 10, 10);
+  line-height: 2;
+  word-spacing: 10px;
+  font-size: 17px;
+}
+h1.con {
+  position: absolute;
+  top: 1800px;
+  left: 200px;
+  font-family: Comic Sans MS;
+  color: rgb(10, 10, 10);
+}
+
+/* nowork */
+/*  */
+
+div.linked {
+  position: absolute;
+  top: 1800px;
+  left: 540px;
+  size: 20px;
+  margin: 0 10px;
+}
+.linked:hover {
+  transform: scale(1.5);
+  transition: opacity 0.2s;
+  color: black;
+}
+.linked {
+  font-size: 50px;
+}
+
+div.git {
+  position: absolute;
+  top: 1800px;
+  left: 630px;
+  size: 20px;
+
+  margin: 0 10px;
+}
+.git:hover {
+  transform: scale(1.5);
+  transition: opacity 0.2s;
+  color: black;
+}
+.git {
+  font-size: 50px;
+}
+
+div.insta {
+  position: absolute;
+  top: 1800px;
+  left: 720px;
+  size: 20px;
+  color: black;
+  margin: 0 10px;
+}
+.insta:hover {
+  transform: scale(1.5);
+  transition: opacity 0.2s;
+  color: black;
+}
+.insta {
+  font-size: 50px;
+  color: #74a5d3;
+}
+
+div.phone {
+  position: absolute;
+  top: 1800px;
+  left: 960px;
+  size: 20px;
+  color: black;
+  margin: 0 10px;
+}
+.phone:hover {
+  transform: scale(1.5);
+  transition: opacity 0.2s;
+  color: black;
+}
+.phone {
+  font-size: 40px;
+  color: #74a5d3;
+}
+h1.pn {
+  position: absolute;
+  top: 1800px;
+  left: 1020px;
+  font-family: Comic Sans MS;
+  color: rgb(10, 10, 10);
+}
